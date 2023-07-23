@@ -1,0 +1,89 @@
+.chats-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   
+}
+.chat-profile-item-contianer{
+    display: flex;
+    flex-direction: row;
+    padding: -10;
+    margin: 4px;
+}
+.chats-header{
+    padding-left: 5px;
+    padding-right: 5px;
+    max-height: 35px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dodgerblue;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.chat-arrow{
+    height: 20px;
+    width: 20px;
+    margin-right: 2px;
+}
+.chat-popup-container {
+    height: 50vh;
+    width: 18vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    margin-left: 190%;
+    margin-top: 120%;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid dodgerblue;
+ 
+  }
+
+  .chat-list-item{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    padding: 0px;
+    padding-right: 5px;
+    margin: 0px;
+    
+
+  }
+  .chat-inactive{
+    fill: lightgrey;
+    background-color:lightgrey;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    padding: auto;
+    margin-top: 15px;
+  }
+  .chat-active{
+    fill: rgb(6, 108, 6);
+    background-color: rgb(6, 108, 6);
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+   margin-top: 15px;
+  }
+
+  @media screen and (max-width:576px) {
+    .chat-popup-container {
+        width: 40vw;
+        margin-bottom: -550%;
+        margin-left: 60%;
+    }
+  }
