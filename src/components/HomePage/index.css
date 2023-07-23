@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('file:///C:/Users/sukan/.vscode/extensions/users-profile-dashboard/src/water-wave-animation.jpg');
+    background-image: background-image: linear-gradient(to right,rgb(111, 100, 181),rgb(83, 66, 192));
     background-size: cover;
     background-repeat: no-repeat;
 }
